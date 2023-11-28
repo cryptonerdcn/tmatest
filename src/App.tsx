@@ -16,7 +16,7 @@ function App() {
         </a>
       </div>
       <div>
-        <h1>Arc Order Book </h1>
+        <h1>Ark Order Book </h1>
         <div className="card">
           <h2>Place Order</h2>
           <input type="text" placeholder="Amount" />

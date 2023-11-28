@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const OrderBook = () => {
   const [orders, setOrders] = useState([]);
@@ -30,8 +30,9 @@ const OrderBook = () => {
       ws.close();
     };
   }, [currencyPair]);
-
-  const { bids, asks } = orders;
+  
+  const bids = orders["bids"];
+  const asks = orders["asks"];
   const orderRows = (arr) =>
     arr &&
     arr.map((item, index) => (
@@ -43,7 +44,7 @@ const OrderBook = () => {
   const orderHead = (title) => (
     <thead>
       <tr>
-        <th colSpan="2">{title}</th>
+        <th colSpan={2}>{title}</th>
       </tr>
       <tr>
         <th>Amount ({currencyArray[0]})</th>

@@ -5,6 +5,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import WebApp from '@twa-dev/sdk'
+import OrderBook from './OrderBook'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,25 +16,26 @@ function App() {
         <a href="https://ton.org/dev" target="_blank">
           <img src={twaLogo} className="logo" alt="TWA logo" />
         </a>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
       </div>
-      <h1>TWA + Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+      <div>
+        <h1>Arc Order Book </h1>
+        <div className="card">
+          <h2>Place Order</h2>
+          <input type="text" placeholder="Amount" />
+          <input type="text" placeholder="Price" />
+          <button onClick={() => setCount((count) => count + 1)}>
+            Place order queue: {count}
+          </button>
+        </div>
+        <OrderBook />
       </div>
-      {/*  */}
-      <div className="card">
+
+      {/* <div className="card">
         <button onClick={() => WebApp.showAlert(`Hello World! Current count is ${count}`)}>
-            Show Alert
+          Show Alert
         </button>
-      </div>
+      </div> */}
+
     </>
   )
 }

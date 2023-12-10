@@ -49,7 +49,7 @@ function App() {
         <div className="bg-white p-6 rounded-3xl shadow-lg mb-6 h-[30vh]">
           <div className="flex justify-between items-center mb-4 h-[8vh]">
             <div className="flex items-center">
-              <img src={TONIcon} alt="TON icon" className="rounded-full mr-3 h-[7vh]" />
+              <img src={TONIcon} alt="TON icon" className="max-w-[13vw] max-h-[13vw]" />
               <div>
                 <p className="text-2xl font-bold">TONcoin</p>
                 <p className="text-gray-500">697 TON</p>
@@ -59,7 +59,7 @@ function App() {
           </div>
           <div className="flex justify-between items-center mb-4 h-[8vh]">
             <div className="flex items-center">
-              <img src={BitcoinIcon} alt="Bitcoin icon" className="rounded-full mr-3 h-[7vh]" />
+              <img src={BitcoinIcon} alt="Bitcoin icon" className="max-w-[13vw] max-h-[13vw]" />
               <div>
                 <p className="text-2xl font-bold">Bitcoin</p>
                 <p className="text-gray-500">697 BTC</p>
@@ -69,7 +69,7 @@ function App() {
           </div>
           <div className="flex justify-between items-center mb-4 h-[8vh]">
             <div className="flex items-center">
-              <img src={MoreTokenIcon} alt="More token icon" className="rounded-full mr-3 h-[7vh]" />
+              <img src={MoreTokenIcon} alt="More token icon" className="max-w-[13vw] max-h-[13vw]" />
               <p className="text-2xl font-bold">More Asset</p>
             </div>
             <p className="text-blue-600 font-bold">$20,056</p>

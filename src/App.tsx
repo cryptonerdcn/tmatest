@@ -16,7 +16,7 @@ function App() {
     <>
       <div className="min-h-screen bg-blue-100 p-8">
         <header className="flex items-center py-4">
-          <img src={ARKLogo} alt="Ark logo" className="h-[10vh]" />
+          <img src={ARKLogo} alt="Ark logo" className="h-[5vh]" />
         </header>
         <div className="bg-gradient-to-r from-blue-300 via-pink-300 to-yellow-300 p-6 rounded-3xl shadow-lg mb-6 h-[25vh]">
           <div className="flex justify-between items-center">
@@ -31,46 +31,46 @@ function App() {
             <div className="flex items-center justify-center">
               <img src={LendingIcon} alt="Lending" className="text-blue-500 w-[10vw] h-[10vw]" />
             </div>
-            <p className="text-[1.7vh] text-blue-500">Lending</p>
+            <p className="text-[1.7vh] font-bold text-blue-500">Lending</p>
           </button>
           <button className="focus:outline-none w-[20vw] h-[20vw]">
             <div className="flex items-center justify-center">
               <img src={BorrowingIcon} alt="Borrowing" className="text-blue-500 w-[10vw] h-[10vw]" />
             </div>
-            <p className="text-[1.7vh] text-blue-500">Borrowing</p>
+            <p className="text-[1.7vh] font-bold text-blue-500">Borrowing</p>
           </button>
           <button className="text-center focus:outline-none w-[20vw] h-[20vw]">
             <div className="flex items-center justify-center">
               <img src={BargainIcon} alt="Bargain" className="text-blue-500 w-[10vw] h-[10vw]" />
             </div>
-            <p className="text-[1.7vh] text-blue-500">Bargain Link</p>
+            <p className="text-[1.7vh] font-bold text-blue-500">Bargain Link</p>
           </button>
         </div>
         <div className="bg-white p-6 rounded-3xl shadow-lg mb-6 h-[30vh]">
-          <div className="flex justify-between items-center mb-4 h-[7vh]">
+          <div className="flex justify-between items-center mb-4 h-[8vh]">
             <div className="flex items-center">
-              <img src={TONIcon} alt="TON icon" className="rounded-full mr-3" />
+              <img src={TONIcon} alt="TON icon" className="rounded-full mr-3 h-[7vh]" />
               <div>
-                <p className="text-sm text-gray-500">TONcoin</p>
-                <p className="font-bold">697 TON</p>
+                <p className="text-2xl font-bold">TONcoin</p>
+                <p className="text-gray-500">697 TON</p>
               </div>
             </div>
             <p className="text-blue-600 font-bold">$1520,056</p>
           </div>
-          <div className="flex justify-between items-center mb-4 h-[7vh]">
+          <div className="flex justify-between items-center mb-4 h-[8vh]">
             <div className="flex items-center">
-              <img src={BitcoinIcon} alt="Bitcoin icon" className="rounded-full mr-3" />
+              <img src={BitcoinIcon} alt="Bitcoin icon" className="rounded-full mr-3 h-[7vh]" />
               <div>
-                <p className="text-sm text-gray-500">Bitcoin</p>
-                <p className="font-bold">697 BTC</p>
+                <p className="text-2xl font-bold">Bitcoin</p>
+                <p className="text-gray-500">697 BTC</p>
               </div>
             </div>
             <p className="text-blue-600 font-bold">$15,056</p>
           </div>
-          <div className="flex justify-between items-center mb-4 h-[7vh]">
+          <div className="flex justify-between items-center mb-4 h-[8vh]">
             <div className="flex items-center">
-              <img src={MoreTokenIcon} alt="More token icon" className="rounded-full mr-3" />
-              <p className="font-bold">More Asset</p>
+              <img src={MoreTokenIcon} alt="More token icon" className="rounded-full mr-3 h-[7vh]" />
+              <p className="text-2xl font-bold">More Asset</p>
             </div>
             <p className="text-blue-600 font-bold">$20,056</p>
           </div>

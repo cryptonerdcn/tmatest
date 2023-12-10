@@ -30,19 +30,19 @@ function App() {
             <div className="flex items-center justify-center">
               <img src={LendingIcon} alt="Lending" className="text-blue-500 w-[10vw] h-[10vw]" />
             </div>
-            <p className="text-[3vh] text-blue-500">Lending</p>
+            <p className="text-[1.5vh] text-blue-500">Lending</p>
           </button>
           <button className="focus:outline-none w-[20vw] h-[20vw]">
             <div className="flex items-center justify-center">
               <img src={BorrowingIcon} alt="Borrowing" className="text-blue-500 w-[10vw] h-[10vw]" />
             </div>
-            <p className="text-[3vh] text-blue-500">Borrowing</p>
+            <p className="text-[1.5vh] text-blue-500">Borrowing</p>
           </button>
           <button className="text-center focus:outline-none w-[20vw] h-[20vw]">
             <div className="flex items-center justify-center">
               <img src={BargainIcon} alt="Bargain" className="text-blue-500 w-[10vw] h-[10vw]" />
             </div>
-            <p className="text-[3vh] text-blue-500">Bargain Link</p>
+            <p className="text-[1.5vh] text-blue-500">Bargain Link</p>
           </button>
         </div>
         <div className="bg-white p-6 rounded-3xl shadow-lg mb-6">

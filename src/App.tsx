@@ -37,7 +37,7 @@ function App() {
             <p className="text-sm text-blue-500">Bargain Link</p>
           </button>
         </div>
-        <div className="bg-white p-6 rounded-3xl shadow-lg">
+        <div className="bg-white p-6 rounded-3xl shadow-lg mb-6">
           <div className="flex justify-between items-center mb-4">
             <div className="flex items-center">
               <div className="bg-blue-200 p-2 rounded-full mr-3">

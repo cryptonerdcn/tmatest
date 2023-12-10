@@ -8,5 +8,6 @@ export default defineConfig({
   build: {
     outDir: './docs'
   },
+  assetsInclude: ['**/*.png'],
   base: '/tmatest/'
 });

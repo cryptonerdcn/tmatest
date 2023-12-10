@@ -2,8 +2,7 @@
 import './App.css'
 // import WebApp from '@twa-dev/sdk'
 
-import ARKLogo from './assets/Subtract.svg'
-import ARKText from './assets/arktext.svg'
+import ARKLogo from './assets/ARK.png'
 import LendingIcon from './assets/Lending_icon.svg'
 import BorrowingIcon from './assets/Borrowing_icon.svg'
 import BargainIcon from './assets/Bargain_icon.svg'
@@ -14,8 +13,7 @@ function App() {
     <>
       <div className="min-h-screen bg-blue-100 p-8">
         <header className="flex items-center py-4">
-          <img src={ARKLogo} alt="Ark logo" className="" />
-          <img src={ARKText} alt="Ark logo" className="" />
+          <img src={ARKLogo} alt="Ark logo" className="h-[10vh]" />
         </header>
         <div className="bg-gradient-to-r from-blue-300 via-pink-300 to-yellow-300 p-6 rounded-3xl shadow-lg mb-6 h-[25vh]">
           <div className="flex justify-between items-center">

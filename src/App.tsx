@@ -4,7 +4,9 @@ import './App.css'
 
 import ARKLogo from './assets/Subtract.svg'
 import ARKText from './assets/arktext.svg'
-
+import LendingIcon from './assets/Lending_icon.svg'
+import BorrowingIcon from './assets/Borrowing_icon.svg'
+import BargainIcon from './assets/Bargain_icon.svg'
 
 function App() {
 
@@ -23,18 +25,24 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="flex justify-between w-[70vw] mx-auto p-6">
+        <div className="flex justify-between w-[70vw] mx-auto p-1">
           <button className="text-center focus:outline-none w-[20vw] h-[20vw]">
-            <i className="fas fa-dollar-sign text-blue-500 text-[10vw] "></i>
-            <p className="text-sm text-blue-500">Lending</p>
+            <div className="flex items-center justify-center">
+              <img src={LendingIcon} alt="Lending" className="text-blue-500 w-[10vw] h-[10vw]" />
+            </div>
+            <p className="text-[3vh] text-blue-500">Lending</p>
+          </button>
+          <button className="focus:outline-none w-[20vw] h-[20vw]">
+            <div className="flex items-center justify-center">
+              <img src={BorrowingIcon} alt="Borrowing" className="text-blue-500 w-[10vw] h-[10vw]" />
+            </div>
+            <p className="text-[3vh] text-blue-500">Borrowing</p>
           </button>
           <button className="text-center focus:outline-none w-[20vw] h-[20vw]">
-            <i className="fas fa-hand-holding-usd text-blue-500 text-[10vw] "></i>
-            <p className="text-sm text-blue-500">Borrowing</p>
-          </button>
-          <button className="text-center focus:outline-none w-[20vw] h-[20vw]">
-            <i className="fas fa-tags text-blue-500 text-[10vw] "></i>
-            <p className="text-sm text-blue-500">Bargain Link</p>
+            <div className="flex items-center justify-center">
+              <img src={BargainIcon} alt="Bargain" className="text-blue-500 w-[10vw] h-[10vw]" />
+            </div>
+            <p className="text-[3vh] text-blue-500">Bargain Link</p>
           </button>
         </div>
         <div className="bg-white p-6 rounded-3xl shadow-lg mb-6">

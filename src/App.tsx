@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <div className="min-h-screen bg-blue-100 p-8">
+      <div className="min-h-full bg-blue-100 p-8">
         <header className="flex items-center py-4">
           <img src={ARKLogo} alt="Ark logo" className="" />
           <img src={ARKText} alt="Ark logo" className="" />
@@ -23,7 +23,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="flex justify-between p-8">
+        <div className="flex justify-between p-6">
           <button className="text-center focus:outline-none">
             <i className="fas fa-dollar-sign text-blue-500 text-3xl mb-2"></i>
             <p className="text-sm">Lending</p>

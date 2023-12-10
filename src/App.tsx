@@ -46,8 +46,8 @@ function App() {
             <p className="text-[1.7vh] font-bold text-blue-500">Bargain Link</p>
           </button>
         </div>
-        <div className="bg-white p-6 rounded-3xl shadow-lg mb-6 h-[30vh]">
-          <div className="flex justify-between items-center h-[8vh]">
+        <div className="bg-white p-6 rounded-3xl shadow-lg mb-6 max-h-[35vw]">
+          <div className="flex justify-between items-center max-h-[14vw]">
             <div className="flex items-center">
               <img src={TONIcon} alt="TON icon" className="max-w-[13vw] max-h-[13vw]" />
               <div>
@@ -57,7 +57,7 @@ function App() {
             </div>
             <p className="text-blue-600 font-bold">$1520,056</p>
           </div>
-          <div className="flex justify-between items-center h-[8vh]">
+          <div className="flex justify-between items-center max-h-[14vw]">
             <div className="flex items-center">
               <img src={BitcoinIcon} alt="Bitcoin icon" className="max-w-[13vw] max-h-[13vw]" />
               <div>
@@ -67,7 +67,7 @@ function App() {
             </div>
             <p className="text-blue-600 font-bold">$15,056</p>
           </div>
-          <div className="flex justify-between items-center h-[8vh]">
+          <div className="flex justify-between items-center max-h-[14vw]">
             <div className="flex items-center">
               <img src={MoreTokenIcon} alt="More token icon" className="max-w-[13vw] max-h-[13vw]" />
               <p className="text-2xl font-bold">More Asset</p>

@@ -6,6 +6,9 @@ import ARKLogo from './assets/ARK.png'
 import LendingIcon from './assets/Lending_icon.svg'
 import BorrowingIcon from './assets/Borrowing_icon.svg'
 import BargainIcon from './assets/Bargain_icon.svg'
+import BitcoinIcon from './assets/Bitcoin.svg'
+import TONIcon from './assets/TON.svg'
+import MoreTokenIcon from './assets/more_toekn.svg'
 
 function App() {
 
@@ -43,12 +46,10 @@ function App() {
             <p className="text-[1.7vh] text-blue-500">Bargain Link</p>
           </button>
         </div>
-        <div className="bg-white p-6 rounded-3xl shadow-lg mb-6">
-          <div className="flex justify-between items-center mb-4">
+        <div className="bg-white p-6 rounded-3xl shadow-lg mb-6 h-[30vh]">
+          <div className="flex justify-between items-center mb-4 h-[7vh]">
             <div className="flex items-center">
-              <div className="bg-blue-200 p-2 rounded-full mr-3">
-                <i className="fas fa-gem text-blue-600"></i>
-              </div>
+              <img src={TONIcon} alt="TON icon" className="rounded-full mr-3" />
               <div>
                 <p className="text-sm text-gray-500">TONcoin</p>
                 <p className="font-bold">697 TON</p>
@@ -56,11 +57,9 @@ function App() {
             </div>
             <p className="text-blue-600 font-bold">$1520,056</p>
           </div>
-          <div className="flex justify-between items-center mb-4">
+          <div className="flex justify-between items-center mb-4 h-[7vh]">
             <div className="flex items-center">
-              <div className="bg-yellow-200 p-2 rounded-full mr-3">
-                <i className="fab fa-btc text-yellow-600"></i>
-              </div>
+              <img src={BitcoinIcon} alt="Bitcoin icon" className="rounded-full mr-3" />
               <div>
                 <p className="text-sm text-gray-500">Bitcoin</p>
                 <p className="font-bold">697 BTC</p>
@@ -68,9 +67,9 @@ function App() {
             </div>
             <p className="text-blue-600 font-bold">$15,056</p>
           </div>
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between items-center mb-4 h-[7vh]">
             <div className="flex items-center">
-              <img src="https://placehold.co/32x32" alt="More Asset icon" className="rounded-full mr-3" />
+              <img src={MoreTokenIcon} alt="More token icon" className="rounded-full mr-3" />
               <p className="font-bold">More Asset</p>
             </div>
             <p className="text-blue-600 font-bold">$20,056</p>

@@ -46,31 +46,31 @@ function App() {
             <p className="text-[1.7vh] font-bold text-blue-500">Bargain Link</p>
           </button>
         </div>
-        <div className="bg-white p-6 rounded-3xl shadow-lg mb-6 max-h-[35vw]">
-          <div className="flex justify-between items-center max-h-[14vw]">
+        <div className="bg-white p-6 rounded-3xl shadow-lg mb-6 h-min-[min(35vw,320px)] h-fit">
+          <div className="flex justify-between items-center h-[11vw] h-fit">
             <div className="flex items-center">
-              <img src={TONIcon} alt="TON icon" className="max-w-[13vw] max-h-[13vw]" />
+              <img src={TONIcon} alt="TON icon" className="h-[max(12vw,36px)]" />
               <div>
-                <p className="text-2xl font-bold">TONcoin</p>
+                <p className="text-[min(4vw,60px)] font-bold">TONcoin</p>
                 <p className="text-gray-500">697 TON</p>
               </div>
             </div>
             <p className="text-blue-600 font-bold">$1520,056</p>
           </div>
-          <div className="flex justify-between items-center max-h-[14vw]">
+          <div className="flex justify-between items-center h-[11vw] h-fit">
             <div className="flex items-center">
-              <img src={BitcoinIcon} alt="Bitcoin icon" className="max-w-[13vw] max-h-[13vw]" />
+              <img src={BitcoinIcon} alt="Bitcoin icon" className="h-[max(12vw,36px)]" />
               <div>
-                <p className="text-2xl font-bold">Bitcoin</p>
+                <p className="text-[min(4vw,60px)] font-bold">Bitcoin</p>
                 <p className="text-gray-500">697 BTC</p>
               </div>
             </div>
             <p className="text-blue-600 font-bold">$15,056</p>
           </div>
-          <div className="flex justify-between items-center max-h-[14vw]">
+          <div className="flex justify-between items-center h-[11vw] h-fit">
             <div className="flex items-center">
-              <img src={MoreTokenIcon} alt="More token icon" className="max-w-[13vw] max-h-[13vw]" />
-              <p className="text-2xl font-bold">More Asset</p>
+              <img src={MoreTokenIcon} alt="More token icon" className="h-[max(12vw,36px)]" />
+              <p className="text-[min(4vw,60px)] font-bold">More Asset</p>
             </div>
             <p className="text-blue-600 font-bold">$20,056</p>
           </div>

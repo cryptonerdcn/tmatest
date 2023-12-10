@@ -23,21 +23,21 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="flex justify-between p-6">
-          <button className="text-center focus:outline-none">
-            <i className="fas fa-dollar-sign text-blue-500 text-3xl mb-2"></i>
-            <p className="text-sm">Lending</p>
+        <div className="flex justify-between w-[70vw] mx-auto p-6">
+          <button className="text-center focus:outline-none w-[20vw] h-[20vw]">
+            <i className="fas fa-dollar-sign text-blue-500 text-[10vw] "></i>
+            <p className="text-sm text-blue-500">Lending</p>
           </button>
-          <button className="text-center focus:outline-none">
-            <i className="fas fa-hand-holding-usd text-blue-500 text-3xl mb-2"></i>
-            <p className="text-sm">Borrowing</p>
+          <button className="text-center focus:outline-none w-[20vw] h-[20vw]">
+            <i className="fas fa-hand-holding-usd text-blue-500 text-[10vw] "></i>
+            <p className="text-sm text-blue-500">Borrowing</p>
           </button>
-          <button className="text-center focus:outline-none">
-            <i className="fas fa-tags text-blue-500 text-3xl mb-2"></i>
-            <p className="text-sm">Bargain Link</p>
+          <button className="text-center focus:outline-none w-[20vw] h-[20vw]">
+            <i className="fas fa-tags text-blue-500 text-[10vw] "></i>
+            <p className="text-sm text-blue-500">Bargain Link</p>
           </button>
         </div>
-        <div className="bg-white p-6 rounded-3xl shadow-lg mb-6">
+        <div className="bg-white p-6 rounded-3xl shadow-lg">
           <div className="flex justify-between items-center mb-4">
             <div className="flex items-center">
               <div className="bg-blue-200 p-2 rounded-full mr-3">
